@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & devis – Pierre & Paysage – Paysagiste à Saint-Bonnet-de-Joux (71)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><img src="assets/logo.jpg" alt="Pierre & Paysage"></a>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks"><li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li><li><a href="realisations.html">Réalisations</a></li><li><a href="apropos.html">À propos</a></li><li><a href="contact.html" class="nav-cta">Devis gratuit</a></li></ul>
+</nav>
+
+<!-- ===== CONTACT ===== -->
+<div class="page" id="page-contact">
+  <div class="contact-wrap" style="background-image:url('assets/photo2.jpg')">
+    <div class="ov"></div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <span class="tag">Contact &amp; devis</span>
+        <h1>Parlons de<br>votre projet</h1>
+        <p>Décrivez votre besoin, je vous recontacte rapidement pour établir un devis personnalisé, gratuit et sans engagement.</p>
+        <div class="contact-list">
+          <div class="contact-item"><svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>20 Route de la Chapelle, 71220 Saint-Bonnet-de-Joux</div>
+          <div class="contact-item"><svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>06 00 00 00 00</div>
+          <div class="contact-item"><svg viewBox="0 0 24 24" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Lundi – Vendredi · 8h00 – 18h00</div>
+        </div>
+      </div>
+      <div class="devis-form" id="formWrap">
+        <form id="devisForm">
+          <div class="form-title">Demande de devis gratuit</div>
+          <div class="form-grid">
+            <div class="form-group"><label>Prénom &amp; nom</label><input type="text" placeholder="Jean Dupont" required></div>
+            <div class="form-group"><label>Téléphone</label><input type="tel" placeholder="06 00 00 00 00"></div>
+          </div>
+          <div class="form-group"><label>Email</label><input type="email" placeholder="jean@exemple.fr" required></div>
+          <div class="form-group"><label>Type de prestation</label><select><option value="">Choisissez une prestation…</option><option>Création de jardin</option><option>Entretien régulier</option><option>Terrasse / allée</option><option>Fauchage / débroussaillage</option><option>Autre</option></select></div>
+          <div class="form-group"><label>Votre message</label><textarea placeholder="Décrivez votre projet, la superficie approximative, vos contraintes…"></textarea></div>
+          <button type="submit" class="btn-submit"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <section class="section center">
+    <span class="tag">Zone d'intervention</span>
+    <h2 class="section-title">J'interviens près de chez vous</h2>
+    <p class="section-sub">Basé à Saint-Bonnet-de-Joux, j'interviens dans un rayon de 40 km autour de ma commune, en Saône-et-Loire et alentours.</p>
+    <div class="ville-pills" style="margin-top:2rem;">
+      <span class="ville-pill">Saint-Bonnet-de-Joux</span><span class="ville-pill">Chauffailles</span><span class="ville-pill">La Clayette</span><span class="ville-pill">Cluny</span><span class="ville-pill">Matour</span><span class="ville-pill">Paray-le-Monial</span><span class="ville-pill">Mâcon</span><span class="ville-pill">Roanne</span><span class="ville-pill">Et alentours…</span>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <img src="assets/logo.jpg" alt="Pierre & Paysage">
+    <ul class="footer-links"><li><a href="services.html">Services</a></li><li><a href="realisations.html">Réalisations</a></li><li><a href="apropos.html">À propos</a></li><li><a href="contact.html">Contact</a></li></ul>
+    <div class="footer-copy">© 2025 Pierre &amp; Paysage · Saint-Bonnet-de-Joux 71220</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
