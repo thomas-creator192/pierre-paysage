@@ -26,7 +26,7 @@ remplaçant la maquette one-page initiale déployée sur Netlify.
 Site 100 % statique, aucun back-end requis.
 
 - **Site en production :** https://pierrepaysage.netlify.app
-- **Code source (GitHub) :** à créer (cf. circuit BM2R)
+- **Code source (GitHub) :** https://github.com/thomas-creator192/pierre-paysage (branche `main`)
 - **Hébergement :** Netlify, déploiement continu depuis GitHub.
   Tout push sur le dépôt redéploie automatiquement le site.
 
