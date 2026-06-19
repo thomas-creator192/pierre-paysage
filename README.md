@@ -33,11 +33,14 @@ Site 100 % statique, aucun back-end requis.
 Circuit de mise à jour : modifier les fichiers du livrable > push sur GitHub >
 Netlify redéploie tout seul en ~30 s.
 
+## Coordonnées affichées
+
+- Tél : 07 77 06 58 44
+- Email : pierreetpaysage@gmail.com
+- Adresse : 20 Route de la Chapelle, 71220 Saint-Bonnet-de-Joux
+
 ## À faire avant publication
 
-- Remplacer le téléphone placeholder `06 00 00 00 00` par le vrai numéro
-- Ajouter / vérifier l'email de contact
-- Mettre à jour le copyright (© 2025 → 2026)
 - Validation du contenu par le client
 - Brancher le formulaire de contact (Netlify Forms)
 - Remplacer les photos par de vraies réalisations si nécessaire
